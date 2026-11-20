@@ -1,0 +1,4 @@
+﻿[
+  { "id": "jrs", "name": "JRKAN 直播（站点嗅探）", "url": "https://www.jrs21.com/", "kind": "site", "note": "进入后点比赛，播放地址会被自动截获" },
+  { "id": "jrs2", "name": "备用站点", "url": "https://www.jrs22.com/", "kind": "site", "note": "主站打不开时用" }
+]

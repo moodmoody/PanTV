@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">潘TV</string>
+    <string name="subtitle">体育直播 · 遥控器操作</string>
+    <string name="open_site">打开直播站</string>
+    <string name="refresh">刷新比赛</string>
+    <string name="add_source">直接播地址</string>
+    <string name="empty">还没有入口，点左边「添加入口」</string>
+    <string name="hint_keys">方向键移动　确定键播放\n播放中：左/右 快退快进\n菜单键 切换画面比例</string>
+</resources>

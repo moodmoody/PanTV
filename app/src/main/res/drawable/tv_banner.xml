@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 电视横版图标块：16:9，字母横向铺满 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+
+    <!-- 底：深色横块 -->
+    <path
+        android:pathData="M0,0 L320,0 L320,180 L0,180 Z"
+        android:fillColor="#0E1216" />
+
+    <!-- PTV：横排铺开 -->
+    <path
+        android:pathData="M64,126 L64,54 L98,54 A22,22 0 0 1 98,98 L64,98"
+        android:strokeColor="#C8A24A"
+        android:strokeWidth="13"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <path
+        android:pathData="M132,54 L184,54"
+        android:strokeColor="#C8A24A"
+        android:strokeWidth="13"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M158,54 L158,126"
+        android:strokeColor="#C8A24A"
+        android:strokeWidth="13"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M204,54 L230,126 L256,54"
+        android:strokeColor="#C8A24A"
+        android:strokeWidth="13"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- 底线 -->
+    <path
+        android:pathData="M64,148 L256,148"
+        android:strokeColor="#8A6A3A"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+</vector>

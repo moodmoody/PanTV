@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/item_selector"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingTop="14dp"
+    android:paddingBottom="14dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:layout_marginTop="18dp"
+    android:layout_marginBottom="4dp">
+
+    <TextView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="▸"
+        android:textColor="@color/item_title"
+        android:textSize="16sp"
+        android:duplicateParentState="true" />
+
+    <TextView
+        android:id="@+id/league"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/item_title"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.12"
+        android:duplicateParentState="true" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/item_meta"
+        android:textSize="13sp"
+        android:duplicateParentState="true" />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PTV 字母标：横向拉长版 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- P：更宽的碗 -->
+    <path
+        android:pathData="M22,72 L22,36 L40,36 A9,9 0 0 1 40,54 L22,54"
+        android:strokeColor="#C8A24A"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- T：横杠拉宽 -->
+    <path
+        android:pathData="M48,36 L70,36"
+        android:strokeColor="#C8A24A"
+        android:strokeWidth="6"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M59,36 L59,72"
+        android:strokeColor="#C8A24A"
+        android:strokeWidth="6"
+        android:strokeLineCap="round" />
+
+    <!-- V：张角拉大 -->
+    <path
+        android:pathData="M76,36 L85,72 L94,36"
+        android:strokeColor="#C8A24A"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- 底线 -->
+    <path
+        android:pathData="M22,82 L94,82"
+        android:strokeColor="#8A6A3A"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+</vector>

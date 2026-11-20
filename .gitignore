@@ -1,0 +1,22 @@
+﻿# 构建产物
+.gradle/
+build/
+app/build/
+*.apk
+*.aab
+
+# 本机配置
+local.properties
+.env
+
+# 依赖与调试残留
+node_modules/
+.tmp/
+package-lock.json
+
+# 截图
+screenshots/
+
+# 系统文件
+.DS_Store
+Thumbs.db
