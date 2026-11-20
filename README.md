@@ -95,3 +95,27 @@ gradle assembleDebug
 ```
 
 调试用：`adb forward tcp:9222 localabstract:webview_devtools_remote_<pid>`，可直接用 Chrome DevTools 看页面内情况。
+
+## 如何更新这个仓库
+
+正常情况直接用 git：
+
+```bash
+git add -A
+git commit -m "改了什么"
+git push
+```
+
+如果 `github.com` 的 HTTPS 连不上（表现为 `git push` 长时间无响应、`curl https://github.com` 超时），但 `api.github.com` 仍可访问，就走 API 提交：
+
+```bash
+node tools/push_api.mjs --files=README.md,app/src/main/java/com/pantv/sports/SiteService.kt --msg="改了什么"
+```
+
+脚本的流程是：上传 blob → 基于远端最新提交建树 → 建提交 → 移动 `main` 分支。它每次都读取远端 HEAD 作为父提交，所以不会产生冲突，也不依赖本地分支状态。
+
+注意两点：
+
+- 通过 API 提交后，本地与远端的提交 SHA 会不同（内容一致）。网络恢复后执行一次 `git fetch origin && git reset --hard origin/main` 即可并轨。
+- 新增文件时要把路径写进 `--files`，删除文件则需要传 `sha: null` 的树条目，脚本目前只处理新增与修改。
+
